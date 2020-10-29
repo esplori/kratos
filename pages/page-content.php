@@ -24,7 +24,7 @@
                 echo '<span class="label">'. __('页面','kratos') .'<i class="label-arrow"></i></span>';
             }
             ?>
-            <h3 class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+            <h1 class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
         </div>
         <div class="content">
             <p><?php echo wp_trim_words(get_the_excerpt(), 260); ?></p>

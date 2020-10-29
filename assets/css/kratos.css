@@ -629,7 +629,7 @@ button:focus {
 .k-main .board .article-panel .a-post .header .title {
   display: inline;
   margin: 0;
-  font-size: 21px;
+  font-size: 20px;
 }
 
 .k-main .board .article-panel .a-post .header .title a {
@@ -654,7 +654,8 @@ button:focus {
 
 .k-main .board .article-panel .a-post .content p {
   margin-bottom: 0;
-  font-size: 15px;
+  font-size: 14px;
+  color: #828a92;
 }
 
 .k-main .board .article-panel .a-meta {
