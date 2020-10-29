@@ -45,7 +45,7 @@ function theme_autoload()
         if (kratos_option('g_fontawesome', false)) {
             wp_enqueue_style('fontawesome', ASSET_PATH . '/assets/css/fontawesome.min.css', array(), '5.13.0');
         }
-        wp_enqueue_style('kratos', ASSET_PATH . '/assets/css/kratos.min.css', array(), THEME_VERSION);
+        wp_enqueue_style('kratos', ASSET_PATH . '/assets/css/kratos.css', array(), THEME_VERSION);
         if (kratos_option('g_adminbar', true)) {
             $admin_bar_css = "
             @media screen and (max-width: 782px) {
